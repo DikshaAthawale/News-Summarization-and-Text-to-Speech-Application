@@ -1,0 +1,9 @@
+streamlit==1.32.0
+fastapi==0.110.0
+uvicorn==0.29.0
+requests==2.31.0
+beautifulsoup4==4.12.3
+textblob==0.18.0
+pyttsx3==2.90
+concurrent-futures==1.0
+python-multipart==0.0.9  # Required for FastAPI Query
