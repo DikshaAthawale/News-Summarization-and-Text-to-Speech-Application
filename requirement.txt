@@ -1,9 +1,28 @@
+# ✅ Core dependencies
 streamlit==1.32.0
 fastapi==0.110.0
 uvicorn==0.29.0
-requests==2.31.0
+
+# ✅ Web scraping and requests
 beautifulsoup4==4.12.3
-textblob==0.18.0
-pyttsx3==2.90
-concurrent-futures==1.0
-python-multipart==0.0.9  # Required for FastAPI Query
+requests==2.31.0
+
+# ✅ NLP and text processing
+nltk==3.8.1
+spacy==3.7.2
+transformers==4.39.3
+torch==2.2.1
+pillow==10.2.0
+
+# ✅ TTS (Text-to-Speech)
+gtts==2.4.0
+
+# ✅ Data processing and analysis
+pandas==2.2.1
+numpy==1.26.4
+matplotlib==3.8.3
+scikit-learn==1.4.1.post1
+
+# ✅ Concurrency
+aiohttp==3.9.3
+asyncio==3.4.3
